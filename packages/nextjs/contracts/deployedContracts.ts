@@ -7,7 +7,7 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 const deployedContracts = {
   31337: {
     Vendor: {
-      address: "0x4826533B4897376654Bb4d4AD88B7faFD0C98528",
+      address: "0xCD8a1C3ba11CF5ECfa6267617243239504a98d90",
       abi: [
         {
           inputs: [
@@ -261,10 +261,10 @@ const deployedContracts = {
         renounceOwnership: "@openzeppelin/contracts/access/Ownable.sol",
         transferOwnership: "@openzeppelin/contracts/access/Ownable.sol",
       },
-      deployedOnBlock: 88,
+      deployedOnBlock: 108,
     },
     YourToken: {
-      address: "0x70e0bA845a1A0F2DA3359C97E0285013525FFC49",
+      address: "0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575",
       abi: [
         {
           inputs: [],
@@ -591,7 +591,7 @@ const deployedContracts = {
         transfer: "@openzeppelin/contracts/token/ERC20/ERC20.sol",
         transferFrom: "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       },
-      deployedOnBlock: 86,
+      deployedOnBlock: 106,
     },
   },
 } as const;
